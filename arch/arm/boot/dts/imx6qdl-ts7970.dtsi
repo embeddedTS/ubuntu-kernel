@@ -292,6 +292,15 @@
 		ngpio = /bits/ 16 <64>;
 	};
 
+	gpio8: gpio@28 {
+		compatible = "technologic,ts7970-gpio";
+		reg = <0x28>;
+		#gpio-cells = <2>;
+		gpio-controller;
+		base = <224>;
+		ngpio = <64>;
+	};
+
 	codec: sgtl5000@0a {
 		compatible = "fsl,sgtl5000";
 		pinctrl-names = "default";
