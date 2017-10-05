@@ -45,6 +45,14 @@ fw-shipped-$(CONFIG_SND_SB16_CSP) += sb16/mulaw_main.csp sb16/alaw_main.csp \
 				     sb16/ima_adpcm_init.csp \
 				     sb16/ima_adpcm_playback.csp \
 				     sb16/ima_adpcm_capture.csp
+fw-shipped-$(CONFIG_WL12XX) += ti-connectivity/TIInit_7.2.31.bts \
+			       ti-connectivity/wl1271-fw-2.bin ti-connectivity/wl1271-fw-ap.bin \
+			       ti-connectivity/wl1271-fw.bin ti-connectivity/wl1271-nvs.bin \
+			       ti-connectivity/wl127x-fw-3.bin ti-connectivity/wl127x-fw-4-mr.bin \
+			       ti-connectivity/wl127x-fw-4-plt.bin ti-connectivity/wl127x-fw-4-sr.bin \
+			       ti-connectivity/wl127x-fw-5-mr.bin ti-connectivity/wl127x-fw-5-plt.bin \
+			       ti-connectivity/wl127x-fw-5-sr.bin ti-connectivity/wl127x-fw-plt-3.bin \
+			       ti-connectivity/wl127x-nvs.bin ti-connectivity/wl12xx-nvs.bin
 fw-shipped-$(CONFIG_SND_WAVEFRONT) += yamaha/yss225_registers.bin
 fw-shipped-$(CONFIG_TIGON3) += tigon/tg3.bin tigon/tg3_tso.bin \
 			       tigon/tg3_tso5.bin
